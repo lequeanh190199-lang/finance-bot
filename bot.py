@@ -21,8 +21,6 @@ from datetime import datetime
 from telegram import Update
 from telegram.ext import (Application, MessageHandler,
                           CommandHandler, filters, ContextTypes)
-import gspread
-from google.oauth2.service_account import Credentials
 
 # ── Config ────────────────────────────────────────────────────────────────────
 TELEGRAM_TOKEN    = os.environ["TELEGRAM_TOKEN"]
